@@ -1,0 +1,8 @@
+bootstrap: true
+ccp_alpha: 7.2755034093985316e-06
+max_depth: 9
+max_features: 0.25
+max_samples: 0.7437001697100011
+min_samples_leaf: 2
+min_samples_split: 20
+n_estimators: 824
