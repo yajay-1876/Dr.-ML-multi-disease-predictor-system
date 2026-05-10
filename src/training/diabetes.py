@@ -17,7 +17,8 @@ from sklearn.preprocessing import StandardScaler, FunctionTransformer
 from sklearn.compose import ColumnTransformer
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report, recall_score, f1_score
-
+from dotenv import load_dotenv
+load_dotenv()
 
 def train_diabetes_model():
     try:

@@ -1,3 +1,4 @@
 C: 7.09960934247593
 gamma: 0.06032920019762463
 kernel: rbf
+probability: True

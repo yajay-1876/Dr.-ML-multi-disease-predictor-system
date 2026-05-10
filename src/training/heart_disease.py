@@ -13,12 +13,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GroupShuffleSplit ,StratifiedGroupKFold, RandomizedSearchCV 
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import (
-    accuracy_score,
-    f1_score,
-    recall_score,
-    classification_report
-)
+from sklearn.metrics import  classification_report
+from dotenv import load_dotenv
+load_dotenv()
 
 def training_heart_disease_pred_model():
     try:
